@@ -30,7 +30,6 @@ export type ProfileMethods = {
   delete: (self: Profile) -> ();
   getArchetypeIDs: (self: Profile) -> {string};
   updateArchetypeIDs: (self: Profile, newArchetypeIDList: {string}) -> ();
-  getStages: (self: Profile) -> ();
 }
 
 export type Profile = typeof(setmetatable({}, {__index = Profile.__index})) & ProfileProperties & ProfileMethods;
