@@ -28,7 +28,6 @@ local Profile = {
 
 export type ProfileMethods = {
   delete: (self: Profile) -> ();
-  createStage: (self: Profile) -> ();
   getArchetypeIDs: (self: Profile) -> {string};
   updateArchetypeIDs: (self: Profile, newArchetypeIDList: {string}) -> ();
   getStages: (self: Profile) -> ();
