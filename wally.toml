@@ -1,0 +1,12 @@
+[package]
+name = "christian-toney/edtw-profile"
+description = "A class that represents a player profile."
+version = "1.0.1"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "server"
+repository = "https://github.com/EveryoneDestroysTheWorld/stage"
+authors = ["Christian Toney <christian.toney@beastslash.com>"]
+include = ["src", "src/**/*.lua", "wally.toml", "default.project.json"]
+exclude = ["**"]
+
+[dependencies]

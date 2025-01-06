@@ -1,0 +1,15 @@
+{
+  "name": "Profile",
+  "tree": {
+    "$className": "DataModel",
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "Packages": {
+        "$path": "ServerPackages",
+        "Profile": {
+          "$path": "src"
+        }
+      }
+    }
+  }
+}
